@@ -16,7 +16,8 @@ public class Principal {
 		long fim = (arquivo.length() / endereco.tamanho_linha())-1;
 		long meio=0;
 		boolean achou=false;
-
+		int contador=0;
+			
 		System.out.print("Digite o CEP: ");
 		cep_escolhido = teclado.nextLine();
 		cep = cep_escolhido;
@@ -42,7 +43,9 @@ public class Principal {
 				        break;
 			        } 
 		        }
+			contador++;
 		}
+		System.out.println("Foi realizada a iteração " + contador + " vezes");
 		if(achou==true){
 
 		//Imprimindo os Valores encontrados
