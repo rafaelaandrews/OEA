@@ -94,6 +94,4 @@ import java.nio.charset.Charset;
 			this.cep = cep;
 		}
 
-	}
-
-
+}
