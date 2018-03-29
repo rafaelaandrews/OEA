@@ -14,7 +14,8 @@ public class Principal {
 		String cep_escolhido, cep, auxiliar;    	
 		long inicio = 0;	
 		long fim = (arquivo.length() / endereco.tamanho_linha())-1;
-		long meio=0, achou=0;
+		long meio=0;
+		boolean achou=false;
 
 		System.out.print("Digite o CEP: ");
 		cep_escolhido = teclado.nextLine();
@@ -36,13 +37,13 @@ public class Principal {
 			         if (auxiliar.compareTo(cep) > 0){
 				        fim = meio - 1;
 			        } else {
-				        achou = meio;
+				        achou = true;
 				        System.out.println("CEP Encontrado\n\nEndereco completo:\n");
 				        break;
 			        } 
 		        }
 		}
-		if(achou==meio){
+		if(achou==true){
 
 		//Imprimindo os Valores encontrados
 		System.out.println("Logradouro: " + endereco.getLogradouro());
