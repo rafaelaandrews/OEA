@@ -3,8 +3,6 @@ import java.io.RandomAccessFile;
 import java.util.Scanner;
 
 public class Principal {
-
-	//@SuppressWarnings({ "resource", "unused" })
 	
 	public static void main(String[] args){	
 		
