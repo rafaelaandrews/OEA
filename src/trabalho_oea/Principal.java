@@ -50,7 +50,7 @@ public class Principal {
 			System.out.println("Foi realizada a iteração " + contador + " vezes");
 				
 			if(linha>0){
-				arquivo.seek(linha*300);
+				arquivo.seek(linha * endereco.tamanho_linha());
 				endereco.leEndereco(arquivo);
 
 				//Imprimindo os Valores encontrados
