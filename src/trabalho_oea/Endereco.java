@@ -1,5 +1,3 @@
-package trabalho_oea;
-
 import java.io.DataInput;
 import java.io.IOException;
 import java.nio.charset.Charset;
