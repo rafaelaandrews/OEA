@@ -1,5 +1,5 @@
 # OEA
-Este repositório é destinado a entrega de trabalhos da disciplina Organização de Estrutura de Arquivos lesionada pelo professor Renato Moura.
+Este repositório é destinado a entrega de trabalhos da disciplina Organização de Estrutura de Arquivos lecionada pelo professor Renato Moura.
 
 
 Para execução do projeto, os arquivos precisam estar na mesma pasta, incluindo o cep_ordenado.dat.
